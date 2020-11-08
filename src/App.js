@@ -8,7 +8,7 @@ function App() {
   const [awayTeamName, setAwayTeamName] = useState("49ers");
   const [homeTeamScore, setHomeTeamScore] = useState(0);
   const [awayTeamScore, setAwayTeamScore] = useState(0);
-
+  console.log('This is new code from a different person that is not currently on your local computer')
   // let isTie = homeTeamScore === awayTeamScore;
   // let isHomeTeamW
 
