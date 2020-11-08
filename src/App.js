@@ -6,7 +6,7 @@ function App() {
   const [awayTeamName, setAwayTeamName] = useState("49ers");
   const [homeTeamScore, setHomeTeamScore] = useState(0);
   const [awayTeamScore, setAwayTeamScore] = useState(0);
-
+console.log('helloworld')
   // let isTie = homeTeamScore === awayTeamScore;
   // let isHomeTeamW
 
