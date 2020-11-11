@@ -5,6 +5,9 @@ const Players = () => {
   const [players, setPlayers] = useState([{ name: "ryan", number: 2 }]);
   const [newPlayerName, setNewPlayerName] = useState("");
   const [newPlayerNumber, setNewPlayerNumber] = useState("");
+const removePlayer =() => {
+
+}
 
   return (
     <>
@@ -29,7 +32,11 @@ const Players = () => {
         Add Player
       </button>
       {players.map((player) => (
-        <Player name={player.name} number={player.number} />
+        <Player
+          removePlayer={removePlayer}
+          name={player.name}
+          number={player.number}
+        />
       ))}
     </>
   );
