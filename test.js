@@ -17,4 +17,4 @@ console.log(players);
 console.log("new players are");
 console.log(newPlayers);
 
-// [',
+
